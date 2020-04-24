@@ -2,6 +2,18 @@ package training;
 
 public class Main {
 	private String name;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+	
 	
 //		int a = 50;
 //		int b = 2;
