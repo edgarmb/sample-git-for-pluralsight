@@ -3,6 +3,19 @@ package training;
 public class Main {
 	private String name;
 	private int age;
+	
+	
+	
+
+	public Main() {
+		super();
+	}
+
+	public Main(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
 
 	public String getName() {
 		return name;
